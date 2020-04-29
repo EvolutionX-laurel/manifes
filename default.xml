@@ -804,4 +804,7 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
+  <!-- Add laurel_sprout specific repos -->
+  <include name="snippets/laurel.xml" />
+
 </manifest>
