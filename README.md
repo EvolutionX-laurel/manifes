@@ -11,6 +11,9 @@
 # Initialize local repository
 repo init -u https://github.com/EvolutionX-laurel/manifest -b ten
 
+# Initialize with depth 1 for reduced download size
+repo init -u https://github.com/EvolutionX-laurel/manifest -b ten --depth 1
+
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
