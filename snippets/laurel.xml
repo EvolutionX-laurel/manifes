@@ -5,10 +5,6 @@
           fetch="https://github.com/EvolutionX-laurel"
           revision="ten" />
 
-  <remote name="oddlyspaced"
-	  fetch="https://github.com/oddlyspaced"
-	  revision="evox" />
-
   <remote name="nullbytepl"
 	  fetch="http://gitlab.com/nullbytepl"
 	  revision="ten" />
@@ -16,11 +12,6 @@
   <remote name="harukeyua"
 	  fetch="https://github.com/HarukeyUA"
 	  revision="ten" />
-
-
-  <remote name="anxcam"
-	  fetch="https://github.com/HarukeyUA"
-	  revision="ten-anx" />
 
   <!-- General repos -->
   <project path="build/make" name="build" remote="laurel">
@@ -39,8 +30,8 @@
   <!-- Device Specific trees -->
   <project path="kernel/xiaomi/laurel_sprout" name="android_kernel_xiaomi_laurel_sprout" remote="harukeyua" />
   <project path="device/xiaomi/laurel_sprout-images" name="device_xiaomi_laurel_sprout-images" remote="nullbytepl" />
-  <project path="device/xiaomi/laurel_sprout" name="dt_laurel_sprout" remote="oddlyspaced" />
-  <project path="vendor/xiaomi/laurel_sprout" name="vt_laurel_sprout" remote="oddlyspaced" />
-  <project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="anxcam" />
+  <project path="device/xiaomi/laurel_sprout" name="device_xiaomi_laurel_sprout" remote="laurel" />
+  <project path="vendor/xiaomi/laurel_sprout" name="vendor_xiaomi_laurel_sprout" remote="laurel" />
+  <project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="laurel" />
 
 </manifest>
