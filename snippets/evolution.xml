@@ -14,7 +14,6 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="evo" />
-  <project path="frameworks/base" name="frameworks_base" remote="evo" />
   <project path="frameworks/native" name="frameworks_native" remote="evo" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="evo" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="evo" />
@@ -26,8 +25,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="evo" />
-  <project path="manifest" name="manifest" remote="evo" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="evo" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="evo" />
 
   <!-- Hardware repos -->  
@@ -37,7 +34,6 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="evo" />
   <project path="packages/apps/Evolver" name="packages_apps_Evolver" remote="evo" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="evo" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="evo" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="evo" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="evo" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="evo" />
@@ -46,7 +42,6 @@
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="evo" />
-  <project path="system/core" name="system_core" remote="evo" />
   <project path="system/netd" name="system_netd" remote="evo" />
 
 </manifest>
