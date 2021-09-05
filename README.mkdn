@@ -1,16 +1,16 @@
-![Evolution X](https://github.com/Evolution-X/manifest/raw/elle/EvoBanner.png)
+![Evolution X](https://github.com/EvolutionX-laurel/manifest/raw/elle/EvoBanner.png)
 
-Evolution X
+Evolution X for Laurel Sprout
 ===========
 
-[![Download Evolution X](https://img.shields.io/sourceforge/dt/evolution-x.svg)](https://sourceforge.net/projects/evolution-x/files/latest/download)
+[![Download Evolution X](https://img.shields.io/sourceforge/dt/evolution-x/laurel_sprout.svg)](https://sourceforge.net/projects/evolution-x/files/laurel_sprout)
 
 ### Sync ###
 
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/Evolution-X/manifest -b snow
+repo init -u https://github.com/EvolutionX-laurel/manifest -b snow
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -24,7 +24,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 $ . build/envsetup.sh
 
 # Choose a target
-$ lunch evolution_$device-userdebug
+$ lunch evolution_laurel_sprout-userdebug
 
 # Build the code
 $ mka evolution

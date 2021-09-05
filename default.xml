@@ -1106,6 +1106,7 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <include name="snippets/evolution.xml" />
+  <include name="snippets/laurel.xml" />
   <include name="snippets/lineage.xml" />
 
 </manifest>

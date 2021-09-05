@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="evo-laurel"
+           fetch="https://github.com/EvolutionX-laurel"
+           revision="refs/heads/snow" />
+
+  <remote  name="hemant"
+           fetch="https://github.com/HemantSachdeva"
+           revision="refs/heads/snow" />
+
+  <!-- Device Specific Trees -->
+  <project path="device/xiaomi/laurel_sprout" name="device_xiaomi_laurel_sprout" remote="evo-laurel" />
+  <project path="kernel/xiaomi/laurel_sprout" name="kernel_xiaomi_laurel_sprout" remote="hemant" />
+  <project path="vendor/xiaomi/laurel_sprout" name="vendor_xiaomi_laurel_sprout" remote="evo-laurel" />
+
+</manifest>
