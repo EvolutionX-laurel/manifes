@@ -838,6 +838,9 @@
   <!-- Evolution X -->
   <include name="snippets/evolution.xml" />
 
+  <!-- Evolution X Laurel_Sprout -->
+  <include name="snippets/laurel.xml" />
+
   <!-- LineageOS -->
   <include name="snippets/lineage.xml" />
 
